@@ -1,0 +1,34 @@
+/* Soft pink theme palette */
+:root{
+  --pink-1: #fff0f6;
+  --pink-2: #ffd6e7;
+  --pink-3: #ffadd2;
+  --accent: #ff8fb2;
+  --muted: #6c6c6c;
+}
+
+body{
+  background: #fff;
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.brand { color: #333; }
+.accent { color: var(--accent); }
+.hero { background: linear-gradient(180deg, var(--pink-1), #ffffff); padding: 2.5rem; }
+.btn-pink {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+}
+.btn-pink:hover { filter: brightness(0.95); }
+.btn-outline-pink {
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  background: transparent;
+}
+.card { border-radius: 12px; }
+.nav-link { color: #555; }
+.nav-link:hover { color: var(--accent); }
+.footer { background: #fff; }
+.rounded-4 { border-radius: 16px; }

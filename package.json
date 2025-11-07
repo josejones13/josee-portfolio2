@@ -1,0 +1,17 @@
+{
+  "name": "josee-portfolio",
+  "version": "1.0.0",
+  "description": "Soft-pink themed Express + EJS portfolio for Josée Jones (placeholder content).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Josée Jones",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
