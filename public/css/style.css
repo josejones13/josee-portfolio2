@@ -5,6 +5,8 @@
   --pink-3: #ffadd2;
   --accent: #ff8fb2;
   --muted: #6c6c6c;
+  --pink-accent: #ff8fb2;
+  --pink-light: #fff0f6;
 }
 
 body{
@@ -32,3 +34,29 @@ body{
 .nav-link:hover { color: var(--accent); }
 .footer { background: #fff; }
 .rounded-4 { border-radius: 16px; }
+
+
+.text-pink {
+  color: var(--pink-accent) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #555;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--pink-accent);
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.hero {
+  background: var(--pink-light);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
