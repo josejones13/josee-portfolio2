@@ -1,18 +1,89 @@
 <%- include('partials/header') %>
-<div class="row">
-  <div class="col-md-4 text-center">
-    <img src="/images/placeholder-1.svg" class="img-fluid rounded-circle mb-3" alt="Portrait">
-  </div>
-  <div class="col-md-8">
-    <h2>About Me</h2>
-    <p>This is placeholder bio text for Josée. Replace this text with your real bio — education, experience, skills, and interests. Keep it concise and friendly.</p>
+<!-- About Me Section -->
+<section class="container my-5">
+  <div class="row align-items-center g-5">
+    
+    <!-- Profile Image -->
+    <div class="col-md-4 text-center">
+      <img src="/images/placeholder-1.svg" 
+           class="img-fluid rounded-circle shadow-sm" 
+           alt="Portrait"
+           style="max-width: 250px;">
+    </div>
 
-    <h4>Skills</h4>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Node.js & Express</li>
-      <li>Responsive design & accessibility</li>
-    </ul>
+    <!-- About Me Text -->
+    <div class="col-md-8">
+      <h2 class="display-5 fw-bold mb-3">Hi, I’m Josée</h2>
+      <p class="lead mb-4">
+        I build clean, accessible web experiences with a soft-pink aesthetic.  
+        My focus is on creating websites that are visually engaging, user-friendly, and responsive across all devices.
+      </p>
+
+      <!-- Skills -->
+      <h4 class="fw-semibold mb-3">Skills</h4>
+      <ul class="list-unstyled d-flex flex-wrap gap-3 mb-4">
+        <li class="badge bg-pink text-white p-2 fs-6">
+          <i class="bi bi-code-slash me-1"></i> HTML
+        </li>
+        <li class="badge bg-pink text-white p-2 fs-6">
+          <i class="bi bi-code-slash me-1"></i> CSS
+        </li>
+        <li class="badge bg-pink text-white p-2 fs-6">
+          <i class="bi bi-terminal-fill me-1"></i> JavaScript
+        </li>
+        <li class="badge bg-pink text-white p-2 fs-6">
+          <i class="bi bi-server me-1"></i> Node.js & Express
+        </li>
+        <li class="badge bg-pink text-white p-2 fs-6">
+          <i class="bi bi-phone me-1"></i> Responsive Design
+        </li>
+        <li class="badge bg-pink text-white p-2 fs-6">
+          <i class="bi bi-eye me-1"></i> Accessibility
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
+</section>
+
+<!-- Experience / Projects Section -->
+<section class="container my-5">
+  <h3 class="mb-4 fw-bold text-center">Experience & Projects</h3>
+  <div class="row g-4">
+
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="/images/placeholder-2.svg" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+          <h5 class="card-title fw-semibold">Project One</h5>
+          <p class="card-text">Short description of the project highlighting key technologies and achievements.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="/images/placeholder-3.svg" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+          <h5 class="card-title fw-semibold">Project Two</h5>
+          <p class="card-text">Short description of the project highlighting key technologies and achievements.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="/images/placeholder-4.svg" class="card-img-top" alt="Project 3">
+        <div class="card-body">
+          <h5 class="card-title fw-semibold">Project Three</h5>
+          <p class="card-text">Short description of the project highlighting key technologies and achievements.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <%- include('partials/footer') %>

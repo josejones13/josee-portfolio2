@@ -1,11 +1,28 @@
 <footer class="footer py-4 mt-5 border-top">
-  <div class="container d-flex justify-content-between align-items-center">
-    <div>
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <!-- Copyright -->
+    <div class="mb-2 mb-md-0">
       <small class="text-muted">© <%= new Date().getFullYear() %> <%= site.name %></small>
     </div>
+
+    <!-- Social Links using Bootstrap Icons -->
     <div>
-      <a href="#" class="me-3 text-muted" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
-      <a href="#" class="me-3 text-muted" title="LinkedIn"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="#" class="me-3 text-muted" title="GitHub">
+        <i class="bi bi-github fs-4"></i>
+      </a>
+      <a href="#" class="me-3 text-muted" title="LinkedIn">
+        <i class="bi bi-linkedin fs-4"></i>
+      </a>
+      <a href="#" class="text-muted" title="Twitter">
+        <i class="bi bi-twitter fs-4"></i>
+      </a>
     </div>
+
   </div>
 </footer>
+
+<!-- Bootstrap JS Bundle (for navbar toggler and components) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

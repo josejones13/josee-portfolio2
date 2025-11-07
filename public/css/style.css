@@ -60,3 +60,53 @@ body{
   padding: 2rem;
 }
 
+.bg-pink {
+  background-color: #ff7fbf !important; /* soft pink */
+}
+
+.btn-pink {
+  background-color: #ff7fbf;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: #ff66aa;
+  color: white;
+}
+
+/* Soft-pink theme */
+.bg-pink {
+  background-color: #ff7fbf !important;
+}
+
+.btn-pink {
+  background-color: #ff7fbf;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: #ff66aa;
+  color: white;
+}
+
+.accent {
+  color: #ff7fbf;
+}
+
+.hero {
+  background-color: #fff0f5;
+}
+
+.card-title {
+  color: #333;
+}
+
+.card-text {
+  color: #555;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
